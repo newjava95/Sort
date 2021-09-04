@@ -15,7 +15,7 @@ class Kuaipai {
     private static void sort(int[] d, int l, int r) {
         if(l >= r) return ;
         int p = helper(d,l,r);
-        sort(d,l,p-1);
+        sort(d,l,p-1); 
         sort(d,p+1,r);
         return;
     }
